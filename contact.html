@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Contact the Cone Family</title>
+    </head>
+    <body>
+        <p><a href="../index.html">← Home</a></p>
+        <h1>Contact the Cone Family</h1>
+        <p>Drop us a line at <a href="mailto:fake-email@example.com">fake-email@example.com</a>, or fill out the form below.</p>
+
+        <form name="contact" method="POST" netlify>
+            <p>
+              <label>Name: <input type="text" name="name"></label>
+            </p>
+            <p>
+              <label>Email address: <input type="email" name="email"></label>
+            </p>
+            <p>
+              <label>Favorite ice cream flavor: <select name="icecream[]">
+                <option vaule="vanilla">Vanilla</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="bubblegum">Bubble gum</option>
+                <option value="cookiedough">Cookie dough</option>
+              </select></label>
+            </p>
+            <p>
+              <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <br>
+            <p>
+              <button type="submit">Submit</button>
+            </p>
+        </form>
+    </body>
+</html>
+  

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Cone Family Website</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- Navigation -->
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+              <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <span class="fs-4 fw-bold">The Cone Family</span>
+              </a>
+              <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+              </ul>
+            </header>
+        </div>
+
+        <!-- Hero Section with Image -->
+        <div class="container-fluid bg-light py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h1 class="display-4 fw-bold text-primary">Welcome Home!</h1>
+                        <p class="lead">You've found the virtual home of the Cone family.</p>
+                        <p class="text-muted">This is where we'll share family news and updates.</p>
+                        <div class="d-grid gap-2 d-md-flex">
+                            <a href="family-members/matt.html" class="btn btn-primary btn-lg">Meet the Family</a>
+                            <a href="contact.html" class="btn btn-outline-secondary btn-lg">Get in Touch</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <!-- Don't forget to update this image with our holiday photo in December -->
+                        <img src="assets/images/family-portrait.jpg" class="img-fluid rounded shadow-lg" alt="Finn's drawing of our family" style="max-height: 400px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- What's Happening Section -->
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h2 class="card-title h3 text-center mb-4">What's Happening Now</h2>
+                            <div class="alert alert-info" role="alert">
+                                <i class="bi bi-info-circle"></i>
+                                Matt recently launched <a href="https://www.staticguide.org" class="alert-link"><em>The Static Site Guide</em></a>.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Meet the Family Section -->
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="text-center mb-4">Meet the Family</h2>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Reem</h5>
+                                    <p class="card-text">The long-suffering bedrock of the family</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 border-primary">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <a href="family-members/matt.html" class="text-decoration-none">Matt</a>
+                                    </h5>
+                                    <p class="card-text">Mildly obsessed with computer Dad jokes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Finn</h5>
+                                    <p class="card-text">Teenager probably spray-painting something as you read this</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Simon</h5>
+                                    <p class="card-text">Resident expert on Lego Star Wars mini-figures</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cleo</h5>
+                                    <p class="card-text">Cow dog who's afraid of cows ¯\_(ツ)_/¯</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-light py-4 mt-5">
+            <div class="container text-center">
+                <p class="mb-0">&copy; 2025 The Cone Family. Made with ❤️ and Bootstrap.</p>
+            </div>
+        </footer>
+    </body>
+</html>
